@@ -1,0 +1,565 @@
+/* Estilos básicos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: #010101;
+    color: #fff;
+    max-width: 80%;
+    margin:  auto;
+}
+
+/*CSS da barra de navegação */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 9vh;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #2BFDBE;
+    
+}
+
+
+.logo  {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav_list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile_menu {
+    display: none;
+    cursor: pointer;
+    
+}
+
+.mobile_menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+/* CSS da hero section */
+
+main{
+    background-image: url(img/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 80%;
+    margin: auto;
+    height: 600px;
+
+
+
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.container_main {
+    display: flex;
+    margin: 3rem;
+    flex-direction: column;
+}
+
+.container_main .button {
+    font-size: 15px;
+    text-decoration: none;
+    color: #010101;
+    max-width: 78px;
+    padding: 18px;
+    font-weight: bold;
+    background-color: #2BFDBE;
+    border-radius: 15px;
+}
+
+.container_main .button:hover {
+    background-color: #9dffe1;
+    transition: 0.5s;
+}
+
+/* CSS da section de portifólio */
+
+#port{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.blog_reading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.blog_reading span {
+    color: #B64318;
+}
+
+.blog_reading h3 {
+    font-size: 2.3rem;
+    color: #010101;
+    font-weight: 600;
+}
+
+.port_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+
+}
+
+.port_box {
+    width: 350px;
+    background-color: #010101;
+    border: 1px solid #01010171;
+    margin: 20px;
+    
+}
+
+.box_img img {
+    width: 100%;
+    
+}
+
+.box_text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_text span {
+    color: #B64318;
+    font-size: 0.9rem;
+}
+
+.box_text .box_title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.box_text .box_title:hover {
+    color: #04ADF2;
+}
+
+.box_text p {
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0 ;
+}
+
+.box_text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box_text a:hover {
+    color: #04ADF2;
+    transition: all ease 0.3s;
+}
+
+/* CSS da section do sobre*/
+.sobre {
+    max-width: 80%;
+    margin: auto;
+}
+
+.container_sobre {
+    display: flex;
+    align-items: center;
+}
+
+.sobre_img {
+    flex: 1;
+    margin-right: 60px;
+}
+
+
+.sobre_img img {
+    max-width: 80%;
+    transition: 0.5s ease;
+    margin: 60px;
+}
+
+.sobre_img:hover img{
+    transform: scale(1.2);
+}
+
+.conteudo_sobre {
+    flex: 1;
+    
+}
+
+.conteudo_sobre h2 {
+    font-size: 45px;
+}
+
+.continuar {
+    color: #010101;
+    display: flex;
+    margin-bottom: 60px;
+    transition: ease 0.5s;
+    
+}
+
+.container_sobre a:hover {
+    color: #04ADF2;
+}
+
+.pag_sobre {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pag_sobre img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74vw;
+    height: 40vw;
+    margin: 24px;
+    border-radius: 15px;
+}
+
+.pag_sobre .conteudo_sobre {
+    margin: 3rem;
+}
+/* CSS rodape */
+
+footer {
+    background-color: #010101;
+    max-width: 80%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Social Link footer CSS */
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social a {
+    text-decoration: none;
+    padding: 10px;
+    
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social a i {
+    font-size: 2em;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.social a:hover {
+    background-color: #010101;
+    transition: 0.5s;
+}
+
+.social a:hover i {
+    color: #2BFDBE;
+    transition: 0.5s;
+}
+
+/*CSS da navegação footer */
+.footer_nav ul {
+    width: 60em;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav_list_footer li {
+    display: flex;
+    align-content: center;
+    
+}
+.footer_copy {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.designer {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2BFDBE;
+}
+
+/* CSS das Paginas de portifólio */
+
+.portifolio1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.port1 {
+    max-width: 60%;
+    max-height: 30%;
+    padding: 15px;
+    border-radius: 60px;
+}
+
+.content_port1 {
+    max-width: 60%;
+    align-items: center;
+    padding: 80px;
+}
+
+/*CSS da pagina de Contato*/
+
+.contato {
+    display: flex;
+    max-width: 80%;
+    height: 60vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario_contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_contato h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: #010101;
+    margin-bottom: 20px;
+
+}
+
+span {
+    color: #2BFDBE;
+    margin-left: 9px;
+}
+
+.formulario_contato p {
+    display: flex;
+    justify-content: center;
+    color: #9b9b9b;
+    letter-spacing: 3px;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+.formulario_contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario_contato form input, form textarea {
+    width: 90%;
+    padding: 18px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 9px;
+
+}
+
+.formulario_contato textarea {
+    resize: none;
+    height: 200px;
+}
+
+.formulario_contato form .botton_contato {
+    display: inline-block;
+    background: #04ADF2;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.formulario_contato form .botton_contato:hover {
+    background: #0174a1;
+}
+
+/* Responsividade */
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        max-width: 100%;
+    }
+
+    .nav_list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #010101;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav_list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    main {
+        max-width: 100%;
+    }
+
+    /* Responsividade da pagina Sobre */
+
+    .container_sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .conteudo_sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+
+
+    
+    /* Responsividade do Footer */
+
+    footer {
+        overflow-x: hidden ;
+        max-width: 100%;
+        height: 80vh;
+    }
+
+    .container_footer {
+        overflow-x: hidden;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_nav ul  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 25em;
+        
+    }
+
+    /* Responsividade da pagina de contato */
+
+    .contato {
+        max-width: 80%;
+        height: 10%;
+        padding: 80px 3%;
+        transition: .2s;
+    }
+
+    .formulario_contato h1 {
+        font-size: 2rem;
+    }
+
+}
+
+.nav_list.active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
